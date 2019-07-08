@@ -13,7 +13,6 @@ class SocialMedia extends React.Component {
                             <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-twitter"></i></Link></li>
                             <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-linkedin"></i></Link></li>
                             <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-google-plus"></i></Link></li>
-                            <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-dribbble"></i></Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 margin-t-30">

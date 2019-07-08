@@ -14,18 +14,23 @@ class Team extends React.Component {
                 </div>
                 <div className="row margin-t-50">
                     <div className="col-lg-3 col-sm-6">
+                    <a href="https://github.com/dwyfrequency">
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="images/team/img-1.jpg" className="img-fluid rounded" />
+                                    <img alt="" src="images/team/img-1.jpg" className="img-fluid rounded"/>
                                 </div>
                             </div>
                             <h4 className="team-name">Jack Dwyer</h4>
                             <p className="text-uppercase team-designation">Software Engineer</p>
                         </div>
+                        </a>
                     </div>
 
+
+
                     <div className="col-lg-3 col-sm-6">
+                    <a href="https://github.com/ricardopineda93">
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
@@ -35,9 +40,11 @@ class Team extends React.Component {
                             <h4 className="team-name">Ricardo Pineda</h4>
                             <p className="text-uppercase team-designation">Software Engineer</p>
                         </div>
+                        </a>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
+                    <a href="https://github.com/willgolden5">
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
@@ -47,9 +54,11 @@ class Team extends React.Component {
                             <h4 className="team-name">William Golden</h4>
                             <p className="text-uppercase team-designation">Software Engineer</p>
                         </div>
+                        </a>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
+                    <a href="https://github.com/dwyfrequency">
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
@@ -59,6 +68,7 @@ class Team extends React.Component {
                             <h4 className="team-name">Sri Velagapudi</h4>
                             <p className="text-uppercase team-designation">Software Engineer</p>
                         </div>
+                        </a>
                     </div>
 
                 </div>

@@ -7,7 +7,7 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
             <div className="container">
                 <a className="navbar-brand logo text-uppercase" href="/">
-                    QlStico
+                <img src="/images/whiteLogo.png" height="150" width="150"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
@@ -15,6 +15,7 @@ class Navbar extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav navbar-center" id="mySidenav">
                         <li className="nav-item active">
+
                             <a href="#home" className="nav-link">Home</a>
                         </li>
                         <li className="nav-item">

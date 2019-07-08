@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Started extends React.Component {
+class Download extends React.Component {
   render() {
   	return (
         <section className="section section-lg bg-get-start" id='started'>
@@ -23,4 +23,4 @@ class Started extends React.Component {
   	);
   }
 }
-export default Started;
+export default Download;

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Contact from './Contact';
 
-class Descriptions extends React.Component {
+
+class Documentation extends React.Component {
   render() {
   	return (
           <section className="section section-lg bg-web-desc" id='documentation'>
@@ -11,7 +13,7 @@ class Descriptions extends React.Component {
                     <div className="col-lg-12 text-center">
                         <h2 className="text-white">Documentation</h2>
                         <p className="padding-t-15 home-desc">Easy to follow Documentation.</p>
-                        <Link to="JavaScript:Void(0);" className="btn btn-bg-white margin-t-30 waves-effect waves-light mb-5">Coming Soon</Link>
+                        <Link to={Contact} className="btn btn-bg-white margin-t-30 waves-effect waves-light mb-5">Coming Soon</Link>
                     </div>
                 </div>
             </div>
@@ -22,4 +24,4 @@ class Descriptions extends React.Component {
   	);
   }
 }
-export default Descriptions;
+export default Documentation;

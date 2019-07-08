@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Features from './components/Features';
-import Descriptions from './components/Descriptions';
+import Documentation from './components/Documentation';
 import Team from './components/Team';
-import Started from './components/Started';
+import Download from './components/Download';
 import Contact from './components/Contact';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
@@ -40,36 +40,24 @@ class HomeOne extends React.Component {
                         <img src="images/bg-pattern.png" alt="" />
                     </div>
                 </section>
-
                 {/* Services Component*/}
                 <Services />
-
                 {/* Features Component*/}
                 <Features />
-
                 {/* Descriptions Component*/}
-                <Descriptions />
-
+                <Documentation />
                 {/* Team Component*/}
                 <Team />
-
-                {/* Process Component*/}
-
                 {/* Started Component*/}
-                <Started />
-
+                <Download />
                 {/* Contact Component*/}
                 <Contact />
-
                 {/* SocialMedia Component*/}
                 <SocialMedia />
-
                 {/* Footer Component*/}
                 <Footer />
-
                 {/* FooterLinks Component*/}
                 <FooterLinks />
-
                 {/* Switcher Component*/}
                <Switcher />
         </Aux>

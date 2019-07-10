@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "react": "^16.8.6",
     "react-build": "^1.0.8",
-    "react-dom": "^16.7.0",
-    "react-particles-js": "^2.4.2",
+    "react-dom": "^16.8.6",
+    "react-particles-js": "^2.6.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3"
   },

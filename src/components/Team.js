@@ -70,7 +70,6 @@ class Team extends React.Component {
                         </div>
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>

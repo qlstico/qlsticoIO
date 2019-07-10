@@ -24,7 +24,7 @@ class Download extends React.Component {
                         <div className="section-title-border margin-t-20 bg-white"></div>
                         <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#modalSocial" className="btn btn-bg-white waves-effect margin-t-20 mb-4">Download Now <i className="mdi mdi-arrow-right"></i> </button>
 
-<div className="modal fade" id="modalSocial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div className="modal fade" id="modalSocial" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div className="modal-dialog cascading-modal" role="document">
 

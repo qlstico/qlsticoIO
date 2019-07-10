@@ -7,7 +7,7 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
             <div className="container">
                 <a className="navbar-brand logo text-uppercase" href="/">
-                <img src="/images/whiteLogo.png" height="150" width="150"/>
+                <img src="/images/whiteLogo.png" height="100" width="100"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
@@ -44,7 +44,7 @@ class Navbar extends React.Component {
                     <div className="nav-button ml-auto">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                                <button type="button" className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Try it Free</button>
+                                <a href="#started"><button type="button" className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Download Now!</button></a>
                             </li>
                         </ul>
                     </div>

@@ -11,7 +11,7 @@ class Footer extends React.Component {
                         <h4>QLStico</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="/#home">Home</Link></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li><Link to="JavaScript:Void(0);">Contact us</Link></li>
                             </ul>
                         </div>

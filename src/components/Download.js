@@ -14,6 +14,13 @@ class Download extends React.Component {
   }
   render() {
 
+    if(this.state.os === ("MacIntel")){
+      this.setState({os:"Mac OSX"})
+    }
+    else if (this.state.os === ("Win32")){
+      this.setState({os:"Windows"})
+    }
+
   	return (
         <section className="section section-lg bg-get-start" id='started'>
             <div className="bg-overlay"></div>
@@ -37,10 +44,9 @@ class Download extends React.Component {
       </div>
 
       <div className="modal-body mb-0 text-center">
-      <h4 className="get-started-title text-black" align="left">Autodetected OS: Mac OSX</h4>
+      <h4 className="get-started-title text-black" align="left">Autodetected OS: {this.state.os}</h4>
       <iframe src="https://drive.google.com/embeddedfolderview?id=1H2eIc5P2xTXGJpBLIoee_3CnWW314jf7#grid" width="100%" height="500" frameborder="0"></iframe>
       </div>
-
     </div>
 
   </div>

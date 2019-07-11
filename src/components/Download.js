@@ -37,8 +37,8 @@ class Download extends React.Component {
       </div>
 
       <div className="modal-body mb-0 text-center">
-      <h4 className="get-started-title text-black" align="left">Autodetected OS: { this.state.os}</h4>
-      <iframe src="https://drive.google.com/open?id=1H2eIc5P2xTXGJpBLIoee_3CnWW314jf7" width="100%" height="500" frameborder="0"></iframe>
+      <h4 className="get-started-title text-black" align="left">Autodetected OS: Mac OSX</h4>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1H2eIc5P2xTXGJpBLIoee_3CnWW314jf7#grid" width="100%" height="500" frameborder="0"></iframe>
       </div>
 
     </div>

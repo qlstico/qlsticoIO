@@ -52,8 +52,6 @@ class HomeOne extends React.Component {
                 <Download />
                 {/* Contact Component*/}
                 <Contact />
-                {/* SocialMedia Component*/}
-                <SocialMedia />
                 {/* Footer Component*/}
                 <Footer />
                 {/* FooterLinks Component*/}

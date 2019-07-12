@@ -11,21 +11,22 @@ class Footer extends React.Component {
                         <h4>QLStico</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Contact us</Link></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#contact">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
-                        <h4>Information</h4>
+                        <h4>Info</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="/">Download</Link></li>
+                                <li><a href="#started">Downloads</a></li>
+                                <li><a href="#documentation">Documentation</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
-                        <h4>Support</h4>
+                        <h4>Social Media</h4>
                         <section className="cta">
                             <div className="container">
                                 <div className="row">

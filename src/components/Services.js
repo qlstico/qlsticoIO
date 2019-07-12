@@ -29,7 +29,7 @@ class Services extends React.Component {
                     </div>
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-piggy text-custom"></i>
+                            <i className="pe-7s-browser text-custom"></i>
                             <h4 className="padding-t-15">Intuituve GUI</h4>
                             <p className="padding-t-15 text-muted">Keeping everything simple, we made sure even the simplest users can be accustomed to our app.</p>
                         </div>

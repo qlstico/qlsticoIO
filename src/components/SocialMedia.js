@@ -9,17 +9,10 @@ class SocialMedia extends React.Component {
                 <div className="row">
                     <div className="col-lg-6">
                         <ul className="list-inline social margin-t-20">
-                            <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-facebook"></i></Link></li>
-                            <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-twitter"></i></Link></li>
-                            <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-linkedin"></i></Link></li>
-                            <li className="list-inline-item"> <Link to="JavaScript:Void(0);" className="social-icon"><i className="mdi mdi-google-plus"></i></Link></li>
+                            <li className="list-inline-item"> <a href="www.github.com/qlstico" className="social-icon"><i className="mdi mdi-github-circle"></i></a></li>
+                            <li className="list-inline-item"> <a href="fb.com/qlstico" className="social-icon"><i className="mdi mdi-facebook"></i></a></li>
+                            <li className="list-inline-item"> <a href="mailto:support@qlstico.io" className="social-icon"><i className="mdi mdi-email"></i></a></li>
                         </ul>
-                    </div>
-                    <div className="col-lg-3 margin-t-30">
-                        <p className="margin-b-0 contact-title"><i className="pe-7s-server"></i>www.github.com/QLstico</p>
-                    </div>
-                    <div className="col-lg-3 margin-t-30 text-right">
-                        <p className="contact-title"><i className="pe-7s-mail-open"></i>&nbsp; Support@QLStico.io</p>
                     </div>
                 </div>
             </div>

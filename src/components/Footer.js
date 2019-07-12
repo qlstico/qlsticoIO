@@ -26,11 +26,17 @@ class Footer extends React.Component {
                     </div>
                     <div className="col-lg-3 margin-t-20">
                         <h4>Support</h4>
-                        <div className="text-muted margin-t-20">
-                            <ul className="list-unstyled footer-list">
-                                <li><Link to="JavaScript:Void(0);">Contact</Link></li>
-                            </ul>
-                        </div>
+                        <section className="cta">
+                            <div className="container">
+                                <div className="row">
+                                        <ul className="list-inline social margin-t-20">
+                                            <li className="list-inline-item"> <a href="www.github.com/qlstico" className="social-icon"><i className="mdi mdi-github-circle"></i></a></li>
+                                            <li className="list-inline-item"> <a href="fb.com/qlstico" className="social-icon"><i className="mdi mdi-facebook"></i></a></li>
+                                            <li className="list-inline-item"> <a href="mailto:support@qlstico.io" className="social-icon"><i className="mdi mdi-email"></i></a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                     <div className="col-lg-3 margin-t-20">
                         <h4>Subscribe</h4>

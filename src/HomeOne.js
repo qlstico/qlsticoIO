@@ -6,7 +6,6 @@ import Documentation from './components/Documentation';
 import Team from './components/Team';
 import Download from './components/Download';
 import Contact from './components/Contact';
-import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';
 import Switcher from './components/Switcher';
@@ -52,8 +51,6 @@ class HomeOne extends React.Component {
                 <Download />
                 {/* Contact Component*/}
                 <Contact />
-                {/* SocialMedia Component*/}
-                <SocialMedia />
                 {/* Footer Component*/}
                 <Footer />
                 {/* FooterLinks Component*/}

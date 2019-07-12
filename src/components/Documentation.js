@@ -13,7 +13,7 @@ class Documentation extends React.Component {
                     <div className="col-lg-12 text-center">
                         <h2 className="text-white">Documentation</h2>
                         <p className="padding-t-15 home-desc">Easy to follow Documentation.</p>
-                        <button data-toggle="modal" data-target="#exampleModal" className="btn btn-bg-white margin-t-30 waves-effect waves-light mb-5">Coming Soon</button>
+                        <button data-toggle="modal" data-target="#exampleModal" className="btn btn-bg-white margin-t-30 waves-effect waves-light mb-5">Learn More</button>
                         <div class="container demo">
     <div class="text-center">
     </div>

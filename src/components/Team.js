@@ -58,7 +58,7 @@ class Team extends React.Component {
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
-                    <a href="https://github.com/dwyfrequency">
+                    <a href="https://github.com/sriv97">
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">

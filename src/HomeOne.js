@@ -22,7 +22,7 @@ class HomeOne extends React.Component {
         <section
           className="section bg-home home-half"
           id="home"
-          data-image-src="images/bg-home.jpg"
+          data-image-src="images/blog/img-2.jpg"
         >
           <div className="bg-overlay" />
           <div className="display-table">
